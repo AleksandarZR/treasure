@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-family: cursive;
+    font-size: larger;
+}
+
+.question {
+    margin-right: 1rem;
+    
+}
+
+.answer {
+    margin-right: 0rem;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.cipherVisible .cipherInvisible {
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50%;
+    border: 5px solid lightgreen;
+}
+
+.cipherInvisible {
+    display: none;
+}
