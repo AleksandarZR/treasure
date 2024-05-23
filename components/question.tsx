@@ -5,7 +5,6 @@ import styles from "./question.module.css";
 
 interface Props {
     questionText: string,
-    answerText: string,
     answerExpected: string,
     cipher: string
 };
@@ -22,7 +21,7 @@ export default function Question(props: Props) {
     }
 
     return (
-        <div className={styles.main}>
+        <div className={styles.container}>
             <p className={styles.question}>{props.questionText}</p>
             <input className={styles.answer} type="text" id={props.answerExpected} value={answer} onChange={e => setAnswer(e.target.value)}></input>
             <span className={isAnswerCorrect() ? styles.cipherVisible : styles.cipherInvisible}>
