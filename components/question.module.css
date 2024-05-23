@@ -10,7 +10,7 @@
 
 .question {
     margin-right: 1rem;
-    
+
 }
 
 .answer {
@@ -21,15 +21,42 @@
     margin-right: 1rem;
 }
 
-.cipherVisible .cipherInvisible {
-    width: 2.5rem;
-    height: 2.5rem;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 50%;
-    border: 5px solid lightgreen;
+.cipherVisible {
+    display: inline-block;
 }
 
 .cipherInvisible {
-    display: none;
+    display: inline-block;
+}
+
+.cipherVisible {
+    line-height: 0px;
+    border-radius: 50%;
+    font-size: 32px;
+    background-color: rgb(29, 215, 29);
+    color: white;
+}
+
+.cipherInvisible {
+    line-height: 0px;
+    border-radius: 50%;
+    font-size: 32px;
+    background-color: red;
+    color: red;
+}
+
+.cipherVisible span {
+    display: inline-block;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.cipherInvisible span {
+    display: inline-block;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    margin-left: 8px;
+    margin-right: 8px;
 }
