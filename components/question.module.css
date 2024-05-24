@@ -6,7 +6,7 @@
     row-gap: 5px;
 
     padding: 1rem;
-    font-family: cursive;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
 }
 
@@ -16,7 +16,7 @@
 
 .answer {
     margin-right: 0rem;
-    font-family: cursive;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     font-size: 1rem;
     margin-right: 1rem;
