@@ -9,10 +9,9 @@ export default function Home() {
                 <Image
                     src="/pirate.png"
                     alt="Pirate"
-                    className={styles.vercelLogo}
+                    className={styles.pictureInner}
                     width={500}
                     height={500}
-                    priority
                 />
             </div>
 
@@ -21,6 +20,16 @@ export default function Home() {
                 <Question questionText={"2 + 5 x 3 - 10 / 2 ="} answerExpected={"12"} cipher={"2"}/>
                 <Question questionText={"Koliko krakova ima oktopod?"} answerExpected={"8"} cipher={"7"}/>
                 <Question questionText={"Kako se zove prestonica Italije?"} answerExpected={"Rim"} cipher={"3"}/>
+            </div>
+
+            <div className={styles.picture}>
+                <Image
+                    src="/treasure.png"
+                    alt="Treasure"
+                    className={styles.pictureInner}
+                    width={500}
+                    height={500}
+                />
             </div>
         </main>
     );

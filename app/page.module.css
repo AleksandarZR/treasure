@@ -10,6 +10,11 @@
     display: block;
 }
 
+.pictureInner {
+    width: 500px;
+    height: 500px;
+}
+
 .center {
     display: flex;
     flex-direction: column;
@@ -17,4 +22,11 @@
     font-size: 1rem;
     min-width: auto;
     max-width: 100vw;
+}
+
+@media (max-width: 700px) {
+    .pictureInner {
+        width: 300px;
+        height: 300px;
+    }
 }
