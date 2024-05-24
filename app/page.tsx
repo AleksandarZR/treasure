@@ -24,7 +24,7 @@ export default function Home() {
 
             <div className={styles.picture}>
                 <Image
-                    src="/treasure.png"
+                    src="treasure.png"
                     alt="Treasure"
                     className={styles.pictureInner}
                     width={500}
