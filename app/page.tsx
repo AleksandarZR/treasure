@@ -7,7 +7,7 @@ export default function Home() {
         <main className={styles.main}>
             <div className={styles.picture}>
                 <Image
-                    src="/pirate.png"
+                    src="pirate.png"
                     alt="Pirate"
                     className={styles.pictureInner}
                     width={500}
