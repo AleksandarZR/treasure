@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/treasure",
-    output: "export",  // <=== enables static exports
+    basePath: "/github-pages",
+    //output: "export",  // <=== enables static exports
     reactStrictMode: true,
 };
 
